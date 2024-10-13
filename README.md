@@ -21,6 +21,6 @@ Get latest 4 hours of trending topics for Indonesia's region
 
 Get latest 4 hours of trending topics for Indonesia's region
 
-```googletrend_url = 'https://trends.google.com/trending?geo=SG&hl=en-GB&hours=24'```
+```googletrend_url = 'https://trends.google.com/trending?geo=SG&hours=24'```
 
 Save the file and run in Python environment: ```python googletrend_xv1.py```
