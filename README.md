@@ -19,7 +19,7 @@ Get latest 4 hours of trending topics for Indonesia's region
 ```googletrend_url = 'https://trends.google.com/trending?geo=ID&hours=4'```
 
 
-Get latest 4 hours of trending topics for Indonesia's region
+Get latest 24 hours of trending topics for Singapore's region
 
 ```googletrend_url = 'https://trends.google.com/trending?geo=SG&hours=24'```
 
