@@ -10,7 +10,7 @@ python script to download latest trending from Google Trend website. Download CS
 - BigQuery project: Create a BigQuery project and table, noting the project ID, dataset ID, and table ID.
 
 ## Usage
-open the py file & edit to specify the url of Google Trend
+open the googletrend_xv1.py file & edit to specify the url of Google Trend
 
 Example:
 
@@ -22,3 +22,5 @@ Get latest 4 hours of trending topics for Indonesia's region
 Get latest 4 hours of trending topics for Indonesia's region
 
 ```googletrend_url = 'https://trends.google.com/trending?geo=SG&hl=en-GB&hours=24'```
+
+Save the file and run in Python environment: ```python googletrend_xv1.py```
