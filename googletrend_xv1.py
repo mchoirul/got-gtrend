@@ -111,7 +111,7 @@ def check_downloaded_file(download_dir_location):
     else:
         print("File did not download within the expected time frame.")
 
-#method to load doawnloaded google trend file to BQ
+#method to load google trend CSV file to BQ
 def load_gtrend_csv_to_bq(gtrend_file_path, project_id, table_id):
     
     # Read the downloaded CSV data into a DataFrame
@@ -161,6 +161,7 @@ def load_gtrend_csv_to_bq(gtrend_file_path, project_id, table_id):
 try:
     # Open the Google Trends website
     # geo = indonesia, get the latest 4 hours trending
+    # change the URL accordingly
     googletrend_url = 'https://trends.google.com/trending?geo=ID&hours=4'
     
     #download google trend - trending csv file
